@@ -1,0 +1,95 @@
+*{
+    padding: 0px 0px 0px 3px;
+    margin: 0;
+}
+h1{
+    color: red;
+    padding-bottom: 20px;
+}
+.blue{
+    background-color: blue;
+    color: #fff;
+    width: fit-content;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+span{
+    color: red;
+}
+.color{
+padding-top: 55px;
+padding-bottom: 20px;
+}
+.section1{
+    background-color: green;
+ 
+}
+h2{
+    color: #fff;
+}
+.section2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section3{
+    background-color: green;
+    padding: 50px;
+    padding-left: 75px;
+}
+.list{
+    padding: 20px 0px 20px 20px;
+}
+.other{
+    padding: 20px 0px 20px 20px;
+}
+.forms {
+    margin-top:  20px;
+}
+.indented-paragraph {
+    padding: 0px 0px 20px 40px;
+}
+.section4{
+    background-color: green;
+}
+.link{
+    padding-top: 20px;
+}
+ul li {
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0); 
+}
+/* Base styles for mobile devices */
+body {
+    font-size:  10px;
+    line-height:  1.5;
+}
+
+/* Breakpoint for small devices */
+@media (min-width:  320px) {
+    body {
+        font-size:  12px;
+    }
+}
+
+/* Breakpoint for medium devices */
+@media (min-width:  768px) {
+    body {
+        font-size:  14px;
+    }
+}
+
+/* Breakpoint for large devices */
+@media (min-width:  1024px) {
+    body {
+        font-size:  16px;
+    }
+}
+
+/* Breakpoint for extra large devices */
+@media (min-width:  1200px) {
+    body {
+        font-size:  18px;
+    }
+}
